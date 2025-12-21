@@ -1,0 +1,10 @@
+install 
+>npm install
+
+update env content according to your system
+
+seed admin
+>node seed-admin.js
+
+run
+>npm run dev

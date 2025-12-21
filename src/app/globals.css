@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* Global Styles matching original app */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Candidate Cards */
+.candidate-card {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  border-left: 5px solid #4a90e2;
+}
+
+.candidate-card p {
+  margin: 6px 0;
+}
+
+/* Form styling consistency */
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+/* Button hover effects */
+button {
+  transition: background 0.3s;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .candidate-card input {
+    width: 100%;
+    margin-top: 8px;
+  }
+}
